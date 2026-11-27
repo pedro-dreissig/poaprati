@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#123B5D"/><stop offset="1" stop-color="#263238"/></linearGradient></defs>
+<rect width="900" height="520" fill="url(#bg)"/>
+<g stroke-width="5" fill="none"><g stroke="#F4B942"><path d="M210 150v-85 M210 150l-58-58 M210 150l58-58 M210 150h-82 M210 150h82 M210 150l-58 58 M210 150l58 58"/></g><g stroke="#16A085"><path d="M650 140V45 M650 140l-65-65 M650 140l65-65 M650 140H555 M650 140h95 M650 140l-65 65 M650 140l65 65"/></g><g stroke="#fff"><path d="M445 95V25 M445 95l-50-50 M445 95l50-50 M445 95h-70 M445 95h70 M445 95l-50 50 M445 95l50 50"/></g></g>
+<g fill="#F4B942"><circle cx="210" cy="150" r="8"/><circle cx="650" cy="140" r="8"/><circle cx="445" cy="95" r="7"/></g>
+<path d="M0 390h900v130H0z" fill="#263238"/><g fill="#16A085"><path d="M30 390v-105h100v105zM150 390V250h95v140zM270 390v-75h130v75zM430 390V220h115v170zM570 390v-95h120v95zM720 390V255h140v135z"/></g>
+<g fill="#F5F7FA" opacity=".85"><path d="M55 305h15v15H55zM90 305h15v15H90zM175 275h15v15h-15zM210 275h15v15h-15zM460 250h15v15h-15zM500 250h15v15h-15zM600 320h15v15h-15zM760 285h15v15h-15zM800 285h15v15h-15z"/></g>
+<text x="450" y="465" fill="#fff" font-family="Arial" font-size="34" font-weight="bold" text-anchor="middle">RÉVEILLON POA 2027</text>
+</svg>

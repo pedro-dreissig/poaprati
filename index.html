@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="POA PRA TI: descubra eventos, cultura e lazer em Porto Alegre.">
+  <title>POA PRA TI | Descubra Porto Alegre</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="index.html" aria-label="POA PRA TI - página inicial">POA <span>PRA TI</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="navegacao">
+      <a class="ativo" href="index.html">Início</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#sobre">Sobre o projeto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-texto">
+        <span class="etiqueta">PORTO ALEGRE • RS</span>
+        <h1>Uma cidade de possibilidades.<br><span>Um jeito fácil de descobrir</span> o que fazer.</h1>
+        <p>Encontre eventos, cultura e diversão em Porto Alegre sem complicação. Escolha seu próximo rolê!</p>
+        <a class="botao botao-amarelo" href="#eventos">Explorar eventos <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-arte">
+        <div class="selo">TEU PRÓXIMO<br>ROLÊ COMEÇA AQUI!</div>
+        <div class="cidade">
+          <span class="sol"></span><span class="predio p1"></span><span class="predio p2"></span>
+          <span class="predio p3"></span><span class="predio p4"></span><span class="linha-chao"></span>
+        </div>
+        <span class="hero-legenda">DESCUBRA • EXPLORE • APROVEITE</span>
+      </div>
+    </section>
+
+    <section class="faixa-info">
+      <div><strong>📍</strong><span>Eventos em Porto Alegre</span></div>
+      <div><strong>🎟️</strong><span>Opções gratuitas e pagas</span></div>
+      <div><strong>✨</strong><span>Programação para descobrir</span></div>
+    </section>
+
+    <section class="secao eventos-secao" id="eventos">
+      <div class="titulo-secao">
+        <div><span class="sobretitulo">ESCOLHE TEU PRÓXIMO DESTINO</span><h2>Eventos em destaque</h2></div>
+        <p>Programação de dezembro de 2026 para curtir a cidade.</p>
+      </div>
+
+      <div class="filtros">
+        <label class="busca-label" for="busca">Buscar evento</label>
+        <input id="busca" type="search" placeholder="Ex.: Natal, música, festa...">
+        <label class="busca-label" for="tipo">Tipo de entrada</label>
+        <select id="tipo">
+          <option value="todos">Todos</option>
+          <option value="gratuito">Gratuito</option>
+          <option value="pago">Com opção paga</option>
+        </select>
+      </div>
+
+      <div class="grade-eventos" id="lista-eventos">
+        <article class="card-evento" data-nome="porto alegre encantada natal" data-tipo="pago gratuito">
+          <a class="imagem-card" href="evento1.html"><img src="imagens/natal.svg" alt="Ilustração de uma árvore de Natal iluminada"></a>
+          <div class="card-conteudo">
+            <span class="categoria">NATAL • CULTURA</span>
+            <h3>Porto Alegre Encantada</h3>
+            <p>Uma programação natalina com luzes, feira, corais e atrações para aproveitar com a família e os amigos.</p>
+            <div class="dados-card"><span>📅 3 a 23 dez. 2026</span><span>📍 Parque Harmonia</span></div>
+            <div class="card-rodape"><span class="preco">Área gratuita + atrações pagas</span><a class="link-seta" href="evento1.html">Ver detalhes →</a></div>
+          </div>
+        </article>
+
+        <article class="card-evento" data-nome="reveillon porto alegre 2027 ano novo" data-tipo="gratuito">
+          <a class="imagem-card imagem-reveillon" href="evento2.html"><img src="imagens/reveillon.svg" alt="Ilustração de fogos de artifício sobre a cidade"></a>
+          <div class="card-conteudo">
+            <span class="categoria">MÚSICA • CELEBRAÇÃO</span>
+            <h3>Réveillon Porto Alegre 2027</h3>
+            <p>Uma festa pública para celebrar a chegada do novo ano com shows e espetáculo de fogos.</p>
+            <div class="dados-card"><span>📅 31 dez. 2026</span><span>📍 Parque Harmonia</span></div>
+            <div class="card-rodape"><span class="preco gratuito">Entrada gratuita</span><a class="link-seta" href="evento2.html">Ver detalhes →</a></div>
+          </div>
+        </article>
+      </div>
+      <p class="sem-resultados" id="sem-resultados" hidden>Nenhum evento encontrado. Tente outra busca ou filtro.</p>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-icone">POA<br><span>PRA TI</span></div>
+      <div><span class="sobretitulo">SOBRE O PROJETO</span><h2>Porto Alegre tem muita coisa pra descobrir.</h2>
+        <p>O POA PRA TI é um projeto feito para facilitar a busca por eventos e atividades na cidade. A proposta é reunir informações importantes em um só lugar, ajudando jovens a encontrar opções de lazer, cultura e diversão.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <a class="logo logo-rodape" href="index.html">POA <span>PRA TI</span></a>
+    <p>Uma cidade de possibilidades. Um jeito fácil de descobrir o que fazer.</p>
+    <small>Projeto educacional • Porto Alegre, RS • 2026</small>
+  </footer>
+</body>
+</html>

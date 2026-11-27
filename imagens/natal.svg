@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#123B5D"/><stop offset="1" stop-color="#16A085"/></linearGradient></defs>
+<rect width="900" height="520" fill="url(#bg)"/><circle cx="720" cy="100" r="46" fill="#F4B942" opacity=".9"/>
+<g fill="#fff" opacity=".8"><circle cx="110" cy="75" r="4"/><circle cx="220" cy="120" r="3"/><circle cx="570" cy="65" r="4"/><circle cx="820" cy="210" r="3"/><circle cx="420" cy="90" r="3"/></g>
+<path d="M450 95 L315 280 H375 L280 390 H620 L525 280 H585 Z" fill="#16A085" stroke="#D7F2E8" stroke-width="7"/>
+<rect x="415" y="385" width="70" height="90" rx="8" fill="#8A593C"/><path d="M450 58 l18 32 -36 0z" fill="#F4B942"/>
+<g fill="#F4B942"><circle cx="390" cy="280" r="13"/><circle cx="500" cy="310" r="13"/><circle cx="430" cy="365" r="13"/><circle cx="530" cy="235" r="13"/><circle cx="360" cy="350" r="11"/></g>
+<path d="M0 475 Q180 420 350 475 T700 470 T900 465 V520 H0Z" fill="#263238" opacity=".55"/>
+<text x="55" y="470" fill="#fff" font-family="Arial" font-size="25" font-weight="bold">PORTO ALEGRE ENCANTADA</text>
+</svg>
